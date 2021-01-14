@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Inlämningsuppgift 1 | Responsivitet i webbläsaren</title>
+	<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#sektion-a">Sektion A</a></li>
+		</ul>
+	</nav>
+	<main id="info" class="section">
+		<h1>Inlämnings<wbr />uppgift 1</h1>
+		<h2>För betyget Godkänt:</h2>
+		<ol>
+			<li>
+				Skapa ett nytt projekt med en html fil som har minst 3 element varav
+				ett av dessa element är en bild (<em>img</em>).
+			</li>
+			<li>
+				Skapa en <em>.css</em> fil och importera den till den html template du
+				tidigare skapat
+			</li>
+			<li>
+				I din <em>.css</em> skall du använda dig av CSS Grid för att ge ditt
+				projekt ett responsivt beteende.
+			</li>
+		</ol>
+		<p>
+			Krav: Sidan skall vara responsiv till både <em>Desktop</em> samt
+			<em>Mobile</em> och detta skall åstadkommas med CSS Grid och Media
+			Queries.
+		</p>
+	</main>
+	<section id="sektion-a" class="section section-a">
+		<h2>Sektion A</h2>
+		<div class="text1">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Familiares
+				nostros, credo, Sironem dicis et Philodemum, cum optimos viros, tum
+				homines doctissimos. Ita ne hoc quidem modo paria peccata sunt. Et harum
+				quidem rerum facilis est et expedita distinctio.
+				<b>Duo Reges: constructio interrete.</b> Sed ut iis bonis erigimur, quae
+				expectamus, sic laetamur iis, quae recordamur.
+			</p>
+		</div>
+		<div class="image image1">
+			<img src="https://picsum.photos/id/1061/640/360" srcset="
+          https://picsum.photos/id/1061/640/360   640w,
+          https://picsum.photos/id/1061/1680/945 1680w
+        " sizes="100vw" alt="" />
+		</div>
+		<div class="text2">
+			<p>
+				<i>Ut pulsi recurrant?</i> Facile est hoc cernere in primis puerorum
+				aetatulis.Tubulum fuisse, qua illum, cuius is condemnatus est rogatione,
+				P. Si enim ita est, vide ne facinus facias, cum mori suadeas. Deinde
+				disputat quod.
+			</p>
+		</div>
+		<div class="image image2">
+			<img src="https://picsum.photos/id/1012/640/360" srcset="
+          https://picsum.photos/id/1012/640/360   640w,
+          https://picsum.photos/id/1012/1680/945 1680w
+        " sizes="100vw" alt="" />
+		</div>
+	</section>
+</body>
+</html>
